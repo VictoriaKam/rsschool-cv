@@ -55,7 +55,7 @@ if (isNaN(a) || isNaN(b) || isNaN(c) || a===0) {
 - [X] learn.javascript.ru;
 - [X] freeCodeCamp;
 - [X] CS50: Introduction to Computer Science;
-- [X] You don't know JS & React and Redux: Functional Web Development, etc.
+- [X] You don't know JS by K. Simpson & React and Redux: Functional Web Development by A. Banks and E. Porcello, etc.
 
 #### University Education
 **2014-2015** Kyiv National Economic University named after Vadym Hetman                                                                 
