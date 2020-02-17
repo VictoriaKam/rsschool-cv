@@ -1,1 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="utf-8">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="sidebar">
+            <h1>Victoria Kamorina</h1>
+            <nav>
+                <a href="#aside_main"><b>Contacts</b></a>
+                <a href="#summary"><b>Summary</b></a>
+                <a href="#skills"><b>Skills</b></a>
+                <a href="#experience"><b>Experience</b></a>
+                <a href="#education"><b>Education</b></a>
+                <a href="#english"><b>English</b></a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="main_info">
+            <div id="summary">
+                <h2>Summary</h2>
+                <hr>
+                <h4>Desired Position</h4>
+                <p>Junior FrontEnd Developer/Trainee</p>
+                <h4>Goals</h4>
+                <p id="goal"><i>My main goal is to become a <b>№1</b> professional in FrontEnd Development, to solve the most
+            difficult issues and share my experience with new generations of developers.</i></p>
+            </div>
+            <div id="skills">
+                <h2>Skills</h2>
+                <hr>
+                <ul>
+                    <li> HTML</li>
+                    <li> CSS</li>
+                    <li> Responsive Web Design</li>
+                    <li> JavaScript</li>
+                    <li> SASS/LESS</li>
+                    <li> DOM/BOM</li>
+                    <li> Git</li>
+                    <li> Basics of Adobe Photoshop</li>
+                    <li> Basics of React</li>
+                    <li> Content Creation</li>
+                </ul>
+                <h4>Code Example</h4>
+                <pre>
+          <code>
+          let a = +prompt("What's a?");
+          let b = +prompt("What's b?");
+          let c = +prompt("What's c?");
+          if (isNaN(a) || isNaN(b) || isNaN(c) || a===0) {
+            console.log('Invalid input data');
+          }else {
+            const two = 2;
+            const four = 4;
+            let D = Math.pow(b, two) - four * a * c;
+            if (D > 0) {
+              let value1 = Math.round((-b + Math.sqrt(D)) / (two*a));
+              let value2 = Math.round((-b - Math.sqrt(D)) / (two*a));
+              console.log(`x1 = ${value1} and x2 = ${value2}`);
+            }else if (D === 0) {
+              let value = Math.round(-b / (two*a));
+              console.log(`x = ${value}`);
+            }else {
+              console.log('No solution');
+            }
+          }
+        </code>
+      </pre>
+            </div>
+            <div id="experience">
+                <h2>Experience</h2>
+                <hr>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Date</th>
+                            <th>Company</th>
+                            <th>Description</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Summer 2019</td>
+                            <td>EPAM University Programs</td>
+                            <td>
+                                <ul>
+                                    <li> got experience in creating <i>layouts</i>;</li>
+                                    <li> worked with JavaScipt: <i>Functions, Data Types, Control Flow, Scope & Context, etc</i>;</li>
+                                    <li> created a ToDo List app with <i>DOM</i>.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Winter 2020</td>
+                            <td>EPAM University Programs</td>
+                            <td>
+                                <ul>
+                                    <li>created a <i>responsive</i> layout for different screen resolutions;</li>
+                                    <li>implemented a project with <i>preprocessors</i>;</li>
+                                    <li>upgraded <i>JavaScipt</i> knowledge and skills.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div id="button">
+                    <a href="https://github.com/VictoriaKam?tab=repositories">Open Source Code</a>
+                </div>
+                <h4>Extra Experience</h4>
+                <p>From 2016 to 2019 I worked as a Ecommerce & Marketing Manager for USA Market and upgraded my English skills to a Fluent Level. I believe that any experience is highly valued even if it is not related to a current profession. Except the
+                    fact that I improved my English, I also got a lot of Soft Skills like:</p>
+                <ul>
+                    <li><i>taking decisions</i></li>
+                    <li><i>sociability</i></li>
+                    <li><i>team management, etc.</i></li>
+                </ul>
+            </div>
+            <div id="education">
+                <h2>Education</h2>
+                <hr>
+                <ul>
+                    <li> CODIFUN: 10000 women and girls in IT;</li>
+                    <li> EPAM University Programs: FrontEnd Development;</li>
+                    <li> learn.javascript.ru;</li>
+                    <li> freeCodeCamp;</li>
+                    <li> CS50: Introduction to Computer Science;</li>
+                    <li> You don't know JS & React and Redux: Functional Web Development, etc.</li>
+                </ul>
+                <h4>University Education</h4>
+                <table>
+                    <tr>
+                        <td>
+                            <p><b>Kyiv National Economic University named after Vadym Hetman</b></p>
+                            <p><i>M.Sc. Economics and Management.</i></p>
+                            <p><i>Project Management and Consulting. GPA: 4.7 out of 5.</i></p>
+                        </td>
+                        <td><i>2014-2015</i></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p><b>Kyiv National Economic University named after Vadym Hetman</b></p>
+                            <p><i>B.Sc. Economics and Management.</i></p>
+                            <p><i>Business Economics.</i></p>
+                        </td>
+                        <td><i>2010-2014</i></td>
+                    </tr>
+                </table>
+            </div>
+            <div id="english">
+                <h2>English</h2>
+                <hr>
+                <p><b>C1</b> Advanced Level (Passed IELTS for 7.0);</p>
+                <p><i>Upgraded my English skills talking to Americans, British and Canadians every day for 4 years while I was
+            working as a E-commerce & Marketing Manager.</i></p>
+            </div>
+        </div>
+        <aside>
+            <div id="aside_main">
+                <div id="photo">
+                    <img src="photo.jpg" alt="Candidate photo">
+                </div>
+                <div id="contacts">
+                    <h2>Contacts</h2>
+                    <hr>
+                    <p>&#128386; <i>kamorinavika@gmail.com</i></p>
+                    <p>&#9990; <i>+38 (095) 694 1341</i></p>
+                    <div id="skype">
+                        <img src="skype_PNG22.png" alt="skype logo">
+                        <p><i>vikakamorina</i></p>
+                    </div>
+                </div>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <p>Thank you for your time and efforts that you spent on processing my resume!</p>
+    </footer>
+</body>
+
+</html>
